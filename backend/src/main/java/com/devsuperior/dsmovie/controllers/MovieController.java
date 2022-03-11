@@ -21,8 +21,7 @@ public class MovieController {
 	
 	@GetMapping
 	public Page<MovieDTO> findAll(Pageable pagleable){
-		System.out.println(pagleable);
-		System.out.println(pagleable.getPageNumber());
+
 		return movieService.findAll(pagleable);
 		
 	}

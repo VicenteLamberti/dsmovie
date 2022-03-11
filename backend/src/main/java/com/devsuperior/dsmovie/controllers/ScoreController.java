@@ -19,7 +19,7 @@ public class ScoreController {
 	
 	@PutMapping
 	public MovieDTO saveScore(@RequestBody ScoreForm scoreForm) {
-		System.out.println("oi");
+	
 		MovieDTO  movieDTO = scoreService.saveScore(scoreForm);
 		
 		return movieDTO;
