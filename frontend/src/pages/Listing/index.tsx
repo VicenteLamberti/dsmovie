@@ -1,7 +1,7 @@
 import Pagination from "components/Pagination";
-import MovieStars from "components/MovieStars";
+
 import "./styles.css"
-import MovieScore from "components/MovieScore";
+
 import MovieCard from "components/MovieCard";
 
 function Listing() {
