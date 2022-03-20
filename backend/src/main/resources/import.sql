@@ -1,8 +1,9 @@
-INSERT INTO tb_user(email) VALUES ('maria@gmail.com');
-INSERT INTO tb_user(email) VALUES ('joao@gmail.com');
-INSERT INTO tb_user(email) VALUES ('ana@gmail.com');
-INSERT INTO tb_user(email) VALUES ('lucia@gmail.com');
-INSERT INTO tb_user(email) VALUES ('joaquim@gmail.com');
+INSERT INTO tb_user(email,pass) VALUES ('maria@gmail.com','$2a$10$obAthEiEV/pcrFYfzvRhBu3Ter9k4o7M.Kt6vJPkn5ZIFZHSe8xH6');
+INSERT INTO tb_user(email,pass) VALUES ('joao@gmail.com','$2a$10$obAthEiEV/pcrFYfzvRhBu3Ter9k4o7M.Kt6vJPkn5ZIFZHSe8xH6');
+INSERT INTO tb_user(email,pass) VALUES ('ana@gmail.com','$2a$10$obAthEiEV/pcrFYfzvRhBu3Ter9k4o7M.Kt6vJPkn5ZIFZHSe8xH6');
+INSERT INTO tb_user(email,pass) VALUES ('lucia@gmail.com','$2a$10$obAthEiEV/pcrFYfzvRhBu3Ter9k4o7M.Kt6vJPkn5ZIFZHSe8xH6');
+INSERT INTO tb_user(email,pass) VALUES ('joaquim@gmail.com','$2a$10$obAthEiEV/pcrFYfzvRhBu3Ter9k4o7M.Kt6vJPkn5ZIFZHSe8xH6');
+INSERT INTO tb_user(email,pass) VALUES ('vicente@gmail.com','$2a$10$obAthEiEV/pcrFYfzvRhBu3Ter9k4o7M.Kt6vJPkn5ZIFZHSe8xH6');
 
 INSERT INTO tb_movie(score, count, title, image) VALUES (4.5, 2, 'The Witcher', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (3.3, 3, 'Venom: Tempo de Carnificina', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg');
